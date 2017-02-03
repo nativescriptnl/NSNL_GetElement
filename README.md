@@ -30,6 +30,5 @@ with something like this, but working. :-)
         @ViewChild(question) questionElem: ElementRef;
  
         // get the right StackLayout
-        let container;
-        container = questionElem.nativeElement;
+        let container = questionElem.nativeElement;
 ```
