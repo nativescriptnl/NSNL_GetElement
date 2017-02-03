@@ -27,9 +27,9 @@ with something like this, but working. :-)
 ```
     private _checkValue(question: string, value: string) {
  
-        @ViewChild(question) question: ElementRef;
+        @ViewChild(question) questionElem: ElementRef;
  
         // get the right StackLayout
         let container;
-        container = this.question.nativeElement;
+        container = questionElem.nativeElement;
 ```
