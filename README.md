@@ -23,7 +23,7 @@ So replace this:
         }
 ```
 
-Something like this, but working. :-)
+with something like this, but working. :-)
 ```
     private _checkValue(question: string, value: string) {
  
