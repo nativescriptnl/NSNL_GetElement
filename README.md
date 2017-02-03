@@ -27,7 +27,7 @@ with something like this, but working. :-)
 ```
     private _checkValue(question: string, value: string) {
  
-        @ViewChild("question") question: ElementRef;
+        @ViewChild(question) question: ElementRef;
  
         // get the right StackLayout
         let container;
